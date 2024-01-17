@@ -1,0 +1,63 @@
+{
+    "[django-html]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": true,
+            "strings": true,
+        },
+    },
+    "[html]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": true,
+            "strings": true,
+        },
+    },
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit",
+        },
+        "editor.defaultFormatter": "ms-python.autopep8",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+    },
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontVariations": true,
+    "emmet.includeLanguages": {
+        "django-html": "html",
+        "javascript": "javascriptreact",
+        "typescript": "typescriptreact",
+    },
+    "files.associations": {
+        "*.js": "javascript",
+        "*.jsx": "javascriptreact",
+        "*.xml": "html",
+        "*.svg": "html",
+        "*.html": "html",
+        "django-html": "html",
+        "**/*.html": "html",
+        "**/templates/**/*.html": "django-html",
+        "**/base_templates/**/*.html": "django-html",
+        "**/requiremenDts{/**,*}.{txt,in}": "pip-requirements",
+    },
+    "pylint.args": [
+        "--load-plugins=pylint_django",
+        "--errors-only",
+    ],
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.defaultInterpreterPath": "venv\\Scripts\\python.exe",
+    "python.languageServer": "Pylance",
+    "python.testing.pytestArgs": [],
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "OM Theme (Night Owl Italic)",
+}
